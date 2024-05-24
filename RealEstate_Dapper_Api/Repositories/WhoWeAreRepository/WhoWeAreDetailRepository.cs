@@ -1,5 +1,4 @@
 ﻿using Dapper;
-using RealEstate_Dapper_Api.Dtos.WhoWeAreaDtos;
 using RealEstate_Dapper_Api.Dtos.WhoWeAreDetailDtos;
 using RealEstate_Dapper_Api.Models.DapperContext;
 

@@ -1,6 +1,5 @@
 ﻿
 
-using RealEstate_Dapper_Api.Dtos.WhoWeAreaDtos;
 using RealEstate_Dapper_Api.Dtos.WhoWeAreDetailDtos;
 
 namespace RealEstate_Dapper_Api.Repositories.WhoWeAreRepository
