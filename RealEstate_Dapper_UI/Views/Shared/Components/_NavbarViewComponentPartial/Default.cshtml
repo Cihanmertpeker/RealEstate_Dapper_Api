@@ -1,5 +1,4 @@
-﻿
-<header id="site-header" class="fixed-top">
+﻿<header id="site-header" class="fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg stroke px-0">
             <h1>
@@ -21,7 +20,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-lg-5 mr-auto">
                     <li class="nav-item @@home__active">
-                        <a class="nav-link" href="index.html">Ana Sayfa <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/Default/Index/">Ana Sayfa <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item @@listing__active">
                         <a class="nav-link" href="listing.html">İlanlar</a>
@@ -30,7 +29,10 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Fırsatlar <span class="fa fa-angle-down"></span>
-                        </a>                      
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item @@ps__active" href="property-single.html">Günün Fırsatı</a>
+                        </div>
                     </li>
                     <li class="nav-item @@listing__active">
                         <a class="nav-link" href="listing.html">Hakkımızda</a>
@@ -44,7 +46,7 @@
                 </ul>
                 <div class="top-quote mt-lg-0">
                     <a href="#buytheme" class="btn btn-style btn-primary">
-                        <span class="fa fa-home"></span> İlan ver
+                        <span class="fa fa-home"></span> İlan Ver
                     </a>
                 </div>
                 <!--/search-right-->
