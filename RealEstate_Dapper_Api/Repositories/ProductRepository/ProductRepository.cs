@@ -133,7 +133,6 @@ namespace RealEstate_Dapper_Api.Repositories.ProductRepository
         {
             string query = "Select * From Product Where Title like '%" + searchKeyValue + "%' And ProductCategory=@propertyCategoryId And City=@city";
             var parameters = new DynamicParameters();
-            //   parameters.Add("@searchKeyValue", searchKeyValue);
             parameters.Add("@propertyCategoryId", propertyCategoryId);
             parameters.Add("@city", city);
             using (var connection = _context.CreateConnection())
